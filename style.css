@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@media (max-width: 1500px) {
+    .devpic{
+        display: none;
+    }
+   
+  }
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+    margin-left: 190px;
+}
+.container{
+    display: flex;
+  }
+
+.sidebar {
+    height: 100vh;
+    position: absolute;
+    transition: transform 0.3s ease-in;
+    background-color: rgb(215, 206, 206);
+    font-family: 'Abril Fatface', cursive;
+}
+.sidebargo{
+        transform: translate(-290px, 0px);
+        position: absolute;
+    }
+
+
+
+
+.sidebar nav{
+    padding: 51px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 42px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.main{
+    /* background-color: yellow; */
+    width: 82vw;
+}
+
+.infocontainer{
+    /* background-color: rgb(199, 151, 193); */
+    height: 45vh;
+    width: 80vw;
+    margin: 30px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.devpic img{
+    height: 55vh;
+}
+
+.hello{
+    font-size: 1.5rem;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.name{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 1.5rem;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.buttons{
+    margin-top: 0px;
+}
+
+.btn{
+    border-radius: 17px;
+    padding: 6px 10px;
+    color: white;
+    background-color: rgb(126, 71, 180);
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 15px 2PX;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 1rem;
+    margin: 4px 0px;
+    padding: 4px 7px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(126, 71, 180);
+}
+
+.moreabout{
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+
+.contactform{
+    padding: 0 35px;
+    padding-top: 100px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.contactform h1{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 3px 0 0 0;
+}
+
+#emailHelp{
+    color: rgb(126, 71, 180);
+    font-size: 0.4rem;
+    margin: 0px 18px;
+    padding: 5px 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 29px;
+    margin: 3px 0px;
+}
+
+/* Blog section */
+
+.blogcontainer{
+    margin:35px 40px;
+}
+
+.blogitem{
+    margin: 25px;
+}
+
+.blogcontainer h1{
+    font-family: 'Source Code Pro', monospace;
+    margin: 20px;
+}
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Work section */
+
+
+#container{
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+    margin:20px;
+}
+
+h3{
+    color: aqua;
+}
+
+#work-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+section .work{
+    background-color: rgb(16, 29, 29);
+    height: 100px;
+    width: 100px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* intro section */
+
+.intro h2{
+    font-size: 2rem;
+    margin: 10px
+}
+
+.intro p{
+    font-size: 1.1rem;
+    margin: 10px
+}
+
+/* intro section skill part */
+
+
+@media (max-width:600px){
+    
+    .skillcontainer{
+        display: block;
+    }
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.skillcontainer{
+    display:block;
+}
+
+.skill{
+    width: 110px;
+    height: 20px;
+    /* background-color: rebeccapurple; */
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 2px 0px 5px 2px inset gray;
+    margin: 10px;
+}
+
+.skillbar{
+    height: 20px;
+    background-color:  rgb(126, 71, 180);
+    /* border: 2px solid; */
+    border-radius: 1rem;
+}
+
+
+
+.program{
+    font-size: 0.8rem;
+    padding: 9px 0px 19px 2px;
+    vertical-align: middle;
+    color: white;
+    font-weight: bolder;
+}
+
+/* skill-progres */
+
+.percent-85{
+    width: 85%;
+}
+.percent-80{
+    width: 80%;
+}
+.percent-45{
+    width: 45%;
+}
+.percent-55{
+    width: 55%;
+}
+
+/* service section */
+
+.servicecontainer{
+    margin: 5% 35%;
+}
